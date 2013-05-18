@@ -44,7 +44,7 @@
 		- lib
 			- yourJS
 				- package.json
-				- yourJS.js 或 yourJS.min.js // 如 src: 'underscore.min.js',
+				- yourJS.js 或 yourJS.min.js // 如 underscore.min.js
 	```
 
 3. 定义package.json，包括组件的别名，暴露的对象等等
