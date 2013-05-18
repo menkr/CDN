@@ -26,3 +26,10 @@ HOW TO
 ```
 
 如果你还没有开始使用 Seajs 加载脚本，访问Menkr CDN的网站以获取单个组件的原始url，直接引入页面即可。
+
+TO DO
+================
+
+## 成为任何人都能上传的js CDN
+
+> 我们正在建立一套基于Github repo的同步系统，这套系统服务可以将这个repo 所收到的合法 pull request 组件，在merge后同步到menkr在又拍云搭建的cdn当中，给所有人使用。
