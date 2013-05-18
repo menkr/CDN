@@ -10,7 +10,7 @@ HOW TO
 
 ## 如果你使用 Seajs 作为组件加载方式：
 
-```javascript
+```html
 
 <!-- 引入menkr cdn 提供的seajs源 和 配置文件 -->
 <script src="http://cdn.menkr.com/sea.js" data-config="config/config.js" charset="utf-8"></script>
@@ -23,7 +23,6 @@ HOW TO
     });
   });
 </script>
-
 ```
 
 如果你还没有开始使用 Seajs 加载脚本，访问Menkr CDN的网站以获取单个组件的原始url，直接引入页面即可。
