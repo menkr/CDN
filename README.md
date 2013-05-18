@@ -39,13 +39,16 @@
 
 1. fork 这个 repo
 2. 在lib文件夹中添加自己的模块，规则如下：
+	
 	```
 		lib
 			- yourJS
 				- package.json
 				- yourJS.js 或 yourJS.min.js
 	```
+	
 3. 定义package.json，包括组件的别名，暴露的对象等等
+	
 	```javascript
 	{
 		"myjs": {
@@ -54,4 +57,5 @@
 		}
 	}
 	```
+
 4. 提交pull request 请求
