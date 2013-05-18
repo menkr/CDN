@@ -47,11 +47,11 @@
 				- yourJS.js 或 yourJS.min.js // 如 underscore.min.js
 	```
 
-3. 定义package.json，包括组件的别名，暴露的对象等等
+3. 定义package.json，包括组件的别名，暴露的对象等等（请删去注释）
 	
 	```javascript
-	{
-		"myjs": {
+	{	
+		"myjs": { // <- 这是组件别名，即使用`seajs.use`时填写的字符串
 			src: "yourJS.js", // 如 src: 'underscore.min.js',
 			exports: "someObj" // 如 exports: '_'
 		}
