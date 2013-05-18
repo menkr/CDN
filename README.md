@@ -41,12 +41,12 @@
 2. 在lib文件夹中添加自己的模块，规则如下：
 	
 	```
-		lib
+		- lib
 			- yourJS
 				- package.json
-				- yourJS.js 或 yourJS.min.js
+				- yourJS.js 或 yourJS.min.js // 如 src: 'underscore.min.js',
 	```
-	
+
 3. 定义package.json，包括组件的别名，暴露的对象等等
 	
 	```javascript
